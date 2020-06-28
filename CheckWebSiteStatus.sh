@@ -7,4 +7,5 @@ if [ "$code" = "200" ]; then
   echo "Website $url is online."
 else
   echo "Website $url seems to be offline."
+  exit 1
 fi
