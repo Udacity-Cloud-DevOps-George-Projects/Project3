@@ -3,9 +3,9 @@ pipeline {
      stages {
          stage('Lint HTML') {
              steps {
-		  sh 'tidy -q -e *.html'
+                  sh 'tidy -q -e *.html'
              }
-	}
+        }
          stage('Upload to AWS') {
               steps {
                   withAWS(region:'us-east-1',credentials:'aws-static') {
@@ -14,5 +14,10 @@ pipeline {
                   }
               }
          }
+        stage('Check WebSite is Up') {
+             steps {
+                  sh 'bash /home/ubuntu/project3/scripts/CheckWebSiteStatus.sh'
+             }
+        }
      }
 }
