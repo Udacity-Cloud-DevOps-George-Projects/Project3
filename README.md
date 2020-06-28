@@ -8,18 +8,22 @@
 
 
 ## 2) Created AWS t2.micro EC2 instance running Ubuntu 18.04
+
 ![Screenshot2](https://github.com/Udacity-Cloud-DevOps-George-Projects/Project3/blob/master/Screenshots/screenshot-02.PNG)
 
 
 ## 3) Installed Jenkins 
+
 ![Screenshot3](https://github.com/Udacity-Cloud-DevOps-George-Projects/Project3/blob/master/Screenshots/screenshot-03.PNG)
 
 
 ## 4) Installed Blue Ocean plugin for Jenkins 
+
 ![Screenshot4](https://github.com/Udacity-Cloud-DevOps-George-Projects/Project3/blob/master/Screenshots/screenshot-04.PNG)
 
 
 ## 5) Created the GitHub Repository then uploaded the Jenkinfiles
+
 ### The Jenkinfiles includes below stages:
 - Lint HTML: Validates HTML files for compliance against the W3C standards 
 - Upload to AWS: Uploads the HTML code to AWS S3 Bucket configured for static WebSite hosting 
@@ -40,3 +44,12 @@
 - Jenkins Project build was triggered automatically after the GitHub POST 
 
 ![Screenshot-12-JenkinsPipelineTriggered](https://github.com/Udacity-Cloud-DevOps-George-Projects/Project3/blob/master/Screenshots/screenshot-12-JenkinsPipelineTriggered.PNG)
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+End of File
