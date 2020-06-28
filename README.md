@@ -6,14 +6,18 @@
 
 ![Screenshot1](https://github.com/Udacity-Cloud-DevOps-George-Projects/Project3/blob/master/Screenshots/screenshot-01.PNG)
 
+
 ## 2) Created AWS t2.micro EC2 instance running Ubuntu 18.04
 ![Screenshot2](https://github.com/Udacity-Cloud-DevOps-George-Projects/Project3/blob/master/Screenshots/screenshot-02.PNG)
+
 
 ## 3) Installed Jenkins 
 ![Screenshot3](https://github.com/Udacity-Cloud-DevOps-George-Projects/Project3/blob/master/Screenshots/screenshot-03.PNG)
 
+
 ## 4) Installed Blue Ocean plugin for Jenkins 
 ![Screenshot4](https://github.com/Udacity-Cloud-DevOps-George-Projects/Project3/blob/master/Screenshots/screenshot-04.PNG)
+
 
 ## 5) Created the GitHub Repository then uploaded the Jenkinfiles
 ### The Jenkinfiles includes below stages:
@@ -23,7 +27,9 @@
 
 ![Screenshot-09-CheckWebSite](https://github.com/Udacity-Cloud-DevOps-George-Projects/Project3/blob/master/Screenshots/screenshot-09-CheckWebSite.PNG)
 
-## GitHub Webhook is configured to automatically trigger the build of the Jenkins project upon a commit pushed in a Git repository
+
+
+### Note: GitHub Webhook is configured to automatically trigger the build of the Jenkins project upon a commit pushed in a Git repository
 
 ![Screenshot-10-GitHubRepoWebhook](https://github.com/Udacity-Cloud-DevOps-George-Projects/Project3/blob/master/Screenshots/screenshot-10-GitHubRepoWebhook.PNG)
 
